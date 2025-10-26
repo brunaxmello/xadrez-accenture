@@ -22,7 +22,6 @@ O sistema é dividido em quatro pacotes principais:
 | :--- | :--- | :--- |
 | `xadrez.controle` | `Jogo` | Controla o fluxo do jogo, entrada do usuário, alternância de turnos e exibe o tabuleiro. |
 | `xadrez.peca` | `Peao` | Representa o peão, encapsulando posição, cor, e regras de movimento/captura. |
-| `xadrez.peca` | `Cor` | Enum interno que define as cores (`BRANCO`, `PRETO`) para peças e comparação de turnos. |
 | `xadrez.tabuleiro` | `Tabuleiro` | Representa a matriz 8x8 e gerencia a posição, adição e remoção das peças. |
 | `xadrez.exceptions`| `XadrezException` | Classe customizada para tratar erros de regras do jogo (ex: movimento inválido, posição fora do tabuleiro) e feedback de erro ao jogador. |
 
